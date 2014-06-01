@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#006600"
+    android:orientation="vertical" 
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:onClick="scan"
+                android:text="Scan" 
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:onClick="eventSelection"
+                android:text="Select Event" 
+                
+                android:layout_marginBottom="10dp"/>
+            
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:onClick="organizerSelection"
+                android:text="Select Organizer" 
+                
+                android:layout_marginBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:onClick="destroy"
+                android:text="Exit" />
+
+
+
+
+</LinearLayout>
