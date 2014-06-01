@@ -2,7 +2,6 @@
 <resources>
 
     <string name="hello">Hello World, BarcoderActivity!</string>
-    <string name="app_name">TicketReader</string>
-    <string name="url">http://eticketsmall.com/androidinterface2.php</string>
+    <string name="app_name">Broken Launcher</string>
 	
 </resources>
